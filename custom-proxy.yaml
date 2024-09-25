@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,bing.com
   # GitHub
   - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,github.com
   # Docker
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
