@@ -3,6 +3,11 @@ payload:
   - DOMAIN-SUFFIX,bing.com
   # GitHub
   - DOMAIN-SUFFIX,githubusercontent.com
+  # Docker
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  # Volta
+  - DOMAIN-SUFFIX,volta.sh
   # Cloudflare
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   # OpenAI
