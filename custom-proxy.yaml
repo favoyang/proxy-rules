@@ -26,3 +26,4 @@ payload:
   - DOMAIN-SUFFIX,stripe.network
   # Other
   - DOMAIN-SUFFIX,ip2world.com
+  - DOMAIN-SUFFIX,itiger.com
