@@ -1,0 +1,9 @@
+payload:
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,labs.google
+  - DOMAIN-SUFFIX,play.google
+  - DOMAIN-SUFFIX,offgamers.com
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,revenuecat.com
