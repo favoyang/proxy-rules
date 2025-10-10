@@ -7,3 +7,4 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,revenuecat.com
+  - DOMAIN,wisprflow.ai
