@@ -22,3 +22,6 @@ payload:
   - DOMAIN-SUFFIX,greencloudvps.com
   - DOMAIN-SUFFIX,green.cloud
   - DOMAIN-SUFFIX,partnerize.com
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,intellimize.co
+  - DOMAIN-SUFFIX,intellimizeio.com
