@@ -1,0 +1,14 @@
+payload:
+  - DOMAIN,quote.longbridge.global
+  - DOMAIN,trade.longportapp.com
+  - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridge.cn
+  - DOMAIN-SUFFIX,longbridge.sg
+  - DOMAIN-SUFFIX,longbridge.global
+  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,wbrks.com
+  - DOMAIN-SUFFIX,longportapp.cn
+  - DOMAIN-SUFFIX,longportapp.com
+  - DOMAIN-SUFFIX,longbridgeapp.com
+  - DOMAIN-SUFFIX,longbridge.hk
