@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,labs.google
   - DOMAIN-SUFFIX,play.google
