@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,green.cloud
   - DOMAIN-SUFFIX,partnerize.com
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,kie.ai
   - DOMAIN-SUFFIX,intellimize.co
   - DOMAIN-SUFFIX,intellimizeio.com
   - DOMAIN-SUFFIX,vodafone.de
