@@ -1,0 +1,11 @@
+# Stripe domains: https://github.com/v2fly/domain-list-community/blob/master/data/stripe
+# See also: https://docs.stripe.com/ips
+# Keep stripe-terminal-local-reader.net local for Terminal reader discovery.
+payload:
+  - DOMAIN-SUFFIX,link.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.dev
+  - DOMAIN-SUFFIX,stripe.events
+  - DOMAIN-SUFFIX,stripe.global
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,stripecdn.com
