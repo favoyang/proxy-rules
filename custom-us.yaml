@@ -33,3 +33,5 @@ payload:
   - DOMAIN-SUFFIX,vodafone.de
   - DOMAIN-SUFFIX,deutschepost.de
   - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,northwestregisteredagent.com
+  - DOMAIN,matomo.corporatetools.com
