@@ -35,3 +35,4 @@ payload:
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,northwestregisteredagent.com
   - DOMAIN,matomo.corporatetools.com
+  - DOMAIN-SUFFIX,apps.apple.com
