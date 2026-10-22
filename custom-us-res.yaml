@@ -1,6 +1,6 @@
 # Domains that must exit through the US residential proxy.
 # US-RESIDENTIAL-PROXY is res-us1 only and does not fall back to datacenter IPs.
-# Domains that only need a US datacenter IP belong in custom-us-non-res.yaml.
+# Domains that only need a US datacenter IP belong in custom-us-dc.yaml.
 payload:
   # Captcha and bot checks that reject datacenter exits.
   - DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -28,8 +28,7 @@ payload:
   - DOMAIN-SUFFIX,northwestregisteredagent.com
   - DOMAIN,matomo.corporatetools.com
   - DOMAIN-SUFFIX,revenuecat.com
-  # Specific Google and Claude hosts. The broader provider rulesets stay on
-  # US datacenter proxies, so these exceptions have to be listed here.
+  # These hosts stay on res-us1 even when a broader provider set can fall back.
   - DOMAIN-SUFFIX,labs.google
   - DOMAIN-SUFFIX,play.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
@@ -40,3 +39,5 @@ payload:
   - DOMAIN-SUFFIX,aiquickdraw.com
   - DOMAIN-SUFFIX,intellimize.co
   - DOMAIN-SUFFIX,intellimizeio.com
+  - DOMAIN-SUFFIX,vodafone.de
+  - DOMAIN-SUFFIX,deutschepost.de
