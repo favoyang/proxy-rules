@@ -9,3 +9,6 @@ payload:
   - DOMAIN-SUFFIX,volta.sh
   # Other
   - DOMAIN-SUFFIX,itiger.com
+  # Non-US sites that only need a non-CN proxy.
+  - DOMAIN-SUFFIX,vodafone.de
+  - DOMAIN-SUFFIX,deutschepost.de

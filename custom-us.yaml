@@ -1,38 +1,42 @@
+# Domains that must exit through the US residential proxy.
+# US-RESIDENTIAL-PROXY is res-us1 only and does not fall back to datacenter IPs.
+# Domains that only need a US datacenter IP belong in custom-us-non-res.yaml.
 payload:
+  # Captcha and bot checks that reject datacenter exits.
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,gleam.io
+  # Sites that block datacenter or VPN exits.
   - DOMAIN-SUFFIX,producthunt.com
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,sora.com
-  - DOMAIN-SUFFIX,labs.google
-  - DOMAIN-SUFFIX,play.google
   - DOMAIN-SUFFIX,offgamers.com
   - DOMAIN-SUFFIX,yahoo.com
-  - DOMAIN-SUFFIX,blob.core.windows.net
-  - DOMAIN-SUFFIX,revenuecat.com
-  - DOMAIN,wisprflow.ai
   - DOMAIN-SUFFIX,webhostingtalk.com
   - DOMAIN-SUFFIX,racknerd.com
-  - DOMAIN-SUFFIX,fastspring.com
-  - DOMAIN-SUFFIX,onfastspring.com
   - DOMAIN-SUFFIX,evolution-host.com
-  - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,colocrossing.com
   - DOMAIN-SUFFIX,lowendbox.com
   - DOMAIN-SUFFIX,lowendtalk.com
-  - DOMAIN-SUFFIX,gleam.io
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,greencloudvps.com
   - DOMAIN-SUFFIX,green.cloud
+  - DOMAIN-SUFFIX,ultramobile.com
+  # Payments, affiliates, and identity checks.
+  - DOMAIN-SUFFIX,fastspring.com
+  - DOMAIN-SUFFIX,onfastspring.com
   - DOMAIN-SUFFIX,partnerize.com
+  - DOMAIN-SUFFIX,northwestregisteredagent.com
+  - DOMAIN,matomo.corporatetools.com
+  - DOMAIN-SUFFIX,revenuecat.com
+  # Specific Google and Claude hosts. The broader provider rulesets stay on
+  # US datacenter proxies, so these exceptions have to be listed here.
+  - DOMAIN-SUFFIX,labs.google
+  - DOMAIN-SUFFIX,play.google
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN,wisprflow.ai
   - DOMAIN-SUFFIX,kie.ai
   - DOMAIN-SUFFIX,aiquickdraw.com
   - DOMAIN-SUFFIX,intellimize.co
   - DOMAIN-SUFFIX,intellimizeio.com
-  - DOMAIN-SUFFIX,vodafone.de
-  - DOMAIN-SUFFIX,deutschepost.de
-  - DOMAIN-SUFFIX,ultramobile.com
-  - DOMAIN-SUFFIX,northwestregisteredagent.com
-  - DOMAIN,matomo.corporatetools.com
-  - DOMAIN-SUFFIX,apps.apple.com
